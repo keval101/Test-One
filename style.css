@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/*--------------- REUSABLE CSS --------------*/
+
+.bg{
+    background-color: #c4c4c4;
+}
+.clear-fix{
+    clear: both;
+}
+.title{
+    height: 60px;
+    width: 30%;
+    margin: 50px auto;
+}
+
+
+/* <!------------------ HEADER CSS  ----------------> */
+header{
+    height: 60px;
+    width: 100%;
+}
+
+
+/* <!------------------ SECTION-1 CSS  ----------------> */
+
+.div-1,.div-2{
+    height: 500px;
+    width: 49%;
+}
+.div-1{
+    float:left;
+}
+.div-2{
+    float: right;
+}
+
+/* <!------------------ SECTION-2 CSS  ----------------> */
+
+.section-2 .title{
+    width: 50%;
+}
+.main-div{
+    width: 1140px;
+    margin: 0 auto;
+}
+.box{
+    display: inline-block;
+    width: calc(23% - 3px);
+    height: 250px;
+    margin: 10px 10px;
+}
+
+
+
+/* <!------------------ SECTION-3 CSS  ----------------> */
+.margin-left{
+    margin-left: 10px;
+}
+.section-3 .title{
+    width: 65%;
+}
+.parent-div{
+    width: 100%;
+    padding: 20px;
+}
+.boxes{
+    width: 90%;
+    margin: 5%;
+}
+.box-1{
+    background-color: white;
+    width: 25%;
+    padding: 30px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.box-title{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.box-img{
+    width: 100%;
+    height: 185px;
+    margin-bottom: 30px;
+}
+.box-text{
+    width: 100%;
+    height: 180px;
+}
+
+/* <!------------------ SECTION-4 CSS  ----------------> */
+
+.section-4 .title{
+    width: 20%;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.line{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.btn-sec .line:first-child{
+    width: 48%;
+    float: left;
+}
+.btn-sec .line:last-child{
+    float: right;
+    width: 48%;
+}
+
+/* <!------------------ SECTION-5 CSS  ----------------> */
+
+.section-5{
+    margin-top: 50px;
+    padding: 20px;
+}
+.footer-div{
+    background-color: #fff;
+    height: 200px;
+    width: 49%;
+    display: inline-block;
+}
+.footer-div:first-child{
+    margin-right: 1%;
+}
